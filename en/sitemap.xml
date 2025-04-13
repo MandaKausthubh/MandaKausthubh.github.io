@@ -2,14 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/sayhitome/</loc>
-    <lastmod>2025-04-13T03:53:13+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-04-13T03:53:13+05:30</lastmod>
+    <loc>http://localhost:1313/post/firstnote/</loc>
+    <lastmod>2025-04-13T14:55:36+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-13T03:53:13+05:30</lastmod>
+    <lastmod>2025-04-13T14:55:36+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -20,6 +17,15 @@
                 hreflang="en"
                 href="http://localhost:1313/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-04-13T14:55:36+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/sayhitome/</loc>
+    <lastmod>2025-04-13T03:53:13+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2025-04-13T03:53:13+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/a-complete-overview-on-introductory-reinforcement-learning/</loc>
   </url><url>
