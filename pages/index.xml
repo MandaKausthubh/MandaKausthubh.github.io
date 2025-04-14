@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on Manda Kausthubh&#39;s blog</title>
-    <link>http://localhost:1313/about/</link>
-    <description>Recent content in Abouts on Manda Kausthubh&#39;s blog</description>
+    <title>Pages on Manda Kausthubh&#39;s blog</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on Manda Kausthubh&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Apr 2025 03:53:13 +0530</lastBuildDate><atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Apr 2025 03:53:13 +0530</lastBuildDate><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Curriculum Vitae</title>
-      <link>http://localhost:1313/about/aboutme/</link>
+      <link>http://localhost:1313/pages/aboutme/</link>
       <pubDate>Sun, 13 Apr 2025 03:53:13 +0530</pubDate>
       
-      <guid>http://localhost:1313/about/aboutme/</guid>
+      <guid>http://localhost:1313/pages/aboutme/</guid>
       
       <description>&lt;p&gt;Hi, I am Kausthubh Manda. I&amp;rsquo;m an undergraduate student studying computer science@IIIT Bangalore. I work in various fields of AI and ML. My goals in life are to contribute to cutting edge research in these fields. I am currently exploring Multi-Objective-Optimization Theory and it&amp;rsquo;s applications in Machine Learning. I am also exploring other fields in Machine Learing such as Theory of Generalization and Deep Learning. My projects however do include topics in Computer Vision and Foundational Models.&lt;/p&gt;</description>
       
