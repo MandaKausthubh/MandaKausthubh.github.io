@@ -1,41 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Manda Kausthubh&#39;s blog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Manda Kausthubh&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 13 Apr 2025 03:53:13 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Curriculum Vitae</title>
-      <link>http://localhost:1313/pages/aboutme/</link>
-      <pubDate>Sun, 13 Apr 2025 03:53:13 +0530</pubDate>
-      
-      <guid>http://localhost:1313/pages/aboutme/</guid>
-      
-      <description>&lt;p&gt;Hi, I am Kausthubh Manda. I&amp;rsquo;m an undergraduate student studying computer science@IIIT Bangalore. I work in various fields of AI and ML. My goals in life are to contribute to cutting edge research in these fields. I am currently exploring Multi-Objective-Optimization Theory and it&amp;rsquo;s applications in Machine Learning. I am also exploring other fields in Machine Learing such as Theory of Generalization and Deep Learning. My projects however do include topics in Computer Vision and Foundational Models.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Overview of Introductory Reinforcement Learning</title>
-      <link>http://localhost:1313/posts/generalisation-theory/proof-of-hoeffdings-inequality/</link>
-      <pubDate>Sun, 13 Apr 2025 03:53:13 +0530</pubDate>
-      
-      <guid>http://localhost:1313/posts/generalisation-theory/proof-of-hoeffdings-inequality/</guid>
-      
-      <description>&lt;h1 id=&#34;what-is-hoeffdings-inequality-&#34;&gt;What is Hoeffding&amp;rsquo;s Inequality ?&lt;/h1&gt;
-&lt;p&gt;Given a sequence of Random Variables that act as I.I.Ds (Identical Independently Distributions) $Z_{1}, Z_{2}, Z_{3} \dots Z_{n}$ with mean $\mu$ and $\mathbf{P}(a \leq Z_{i} \leq b) = 1$ then for any $\epsilon &amp;gt; 0$ we have the following:&lt;/p&gt;
-&lt;p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Manda Kausthubh's blog</title><link>https://mandakausthubh.github.io/</link><description>Recent content on Manda Kausthubh's blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 13 Apr 2025 03:53:13 +0530</lastBuildDate><atom:link href="https://mandakausthubh.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Curriculum Vitae</title><link>https://mandakausthubh.github.io/pages/aboutme/</link><pubDate>Sun, 13 Apr 2025 03:53:13 +0530</pubDate><guid>https://mandakausthubh.github.io/pages/aboutme/</guid><description>&lt;p>Hi, I am Kausthubh Manda. I&amp;rsquo;m an undergraduate student studying computer science@IIIT Bangalore. I work in various fields of AI and ML. My goals in life are to contribute to cutting edge research in these fields. I am currently exploring Multi-Objective-Optimization Theory and it&amp;rsquo;s applications in Machine Learning. I am also exploring other fields in Machine Learing such as Theory of Generalization and Deep Learning. My projects however do include topics in Computer Vision and Foundational Models.&lt;/p></description></item><item><title>Hoeffding's Inequality and Generalization</title><link>https://mandakausthubh.github.io/posts/generalisation-theory/proof-of-hoeffdings-inequality/</link><pubDate>Sun, 13 Apr 2025 03:53:13 +0530</pubDate><guid>https://mandakausthubh.github.io/posts/generalisation-theory/proof-of-hoeffdings-inequality/</guid><description>&lt;h1 id="what-is-hoeffdings-inequality-">What is Hoeffding&amp;rsquo;s Inequality ?&lt;/h1>
+&lt;p>Given a sequence of Random Variables that act as I.I.Ds (Identical Independently Distributions) $Z_{1}, Z_{2}, Z_{3} \dots Z_{n}$ with mean $\mu$ and $\mathbf{P}(a \leq Z_{i} \leq b) = 1$ then for any $\epsilon &amp;gt; 0$ we have the following:&lt;/p>
+&lt;p>
 $$
-\mathbf{P}(|\bar{Z}_{n} &gt; \epsilon |) \leq 2 \exp\left( \frac{-2n\epsilon^{2}}{(b-a)^{2}} \right)
+\mathbf{P}(|\bar{Z}_{n} > \epsilon |) \leq 2 \exp\left( \frac{-2n\epsilon^{2}}{(b-a)^{2}} \right)
 $$
-&lt;/p&gt;
-&lt;p&gt;where $\bar{Z_{n}}=\frac{1}{N} \sum_{i=1}^{N}Z_{i}$.&lt;/p&gt;
-&lt;p&gt;Why should anyone care about this at all?? This is well explained in Abu Mostafa&amp;rsquo;s book: &lt;strong&gt;Learning from data: A Short Course&lt;/strong&gt;. This is an excellent book for anyone to get started on theoretical machine learning and is a must read. This book was based on the course that he had taught at &lt;strong&gt;CalTech&lt;/strong&gt;.&lt;/p&gt;</description>
-      
-    </item>
-    
-  </channel>
-</rss>
+&lt;/p>
+&lt;p>where $\bar{Z_{n}}=\frac{1}{N} \sum_{i=1}^{N}Z_{i}$.&lt;/p>
+&lt;p>Why should anyone care about this at all?? This is well explained in Abu Mostafa&amp;rsquo;s book: &lt;strong>Learning from data: A Short Course&lt;/strong>. This is an excellent book for anyone to get started on theoretical machine learning and is a must read. This book was based on the course that he had taught at &lt;strong>CalTech&lt;/strong>.&lt;/p></description></item></channel></rss>
