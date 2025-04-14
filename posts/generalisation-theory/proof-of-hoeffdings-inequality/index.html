@@ -44,7 +44,7 @@ $$</p><p>The <strong>chernoff bound</strong> is a statistical bound stated as fo
 \mathbf{P}(|Z - \mathbf{E}(Z)| \geq \epsilon) \leq \min_{\lambda\geq {0}} \mathbf{E}(\lambda |Z - \mathbf{E}(Z)|) e^{-\lambda\epsilon} = \min_{{\lambda\geq 0}} M_{Z - \mathbf{E}(Z)}(\lambda) e^{-\lambda t}
 $$</p><p>Proof for the same is:</p><p>$$
 \begin{aligned}
-\mathbf{P} (|Z - \mathbf{E}| \geq \epsilon) & = \mathbf{P} (\exp(\lambda|Z-\mathbf{E}[Z]|) \geq e^{\lambda \epsilon}) \\
+\mathbf{P} (|Z - \mathbf{E}[Z]| \geq \epsilon) & = \mathbf{P} (\exp(\lambda|Z-\mathbf{E}[Z]|) \geq e^{\lambda \epsilon}) \\
 & \leq \mathbf{E}(\exp(\lambda|Z- \mathbf{E}[Z]|)).e^{-\lambda\epsilon} = \min_{{\lambda\geq 0}} M_{Z - \mathbf{E}(Z)}(\lambda) e^{-\lambda t}
 \end{aligned}
 $$</p><p>This is the chernoff bound. The reason we care about this is that it plays well with summations over Independent distributions, which is a consequence of moment generating functions. We get the following results:</p><p>$$
