@@ -63,10 +63,11 @@ $$</p><h3 id=small-helper-function>Small Helper Function:</h3><p>There is one fi
 \mathbf{E}(e^{tX}) \leq e^{t\mu} \exp\left( \frac{t^2 (b-a)^2 }{8} \right)
 $$</p><p>The link to this proof is in a different blog entry:</p><h3 id=final-step-hoeffdings-inequality>Final Step: Hoeffding&rsquo;s Inequality!!</h3><p>The true form of Hoeffding&rsquo;s Inequality is not as we mentioned!! The original statement actually only speaks about the <em>Independent Variables</em> but not <em>I.I.Ds</em>, this is because <em>I.I.D</em>s are just are just one version of <em>Independent Variables</em>. The true statement is:</p><p>Here&rsquo;s the final proof of <strong>Hoeffding&rsquo;s Inequality</strong>, alas: Suppose we have independent random variables $Z_{1}, Z_{2}\dots Zn$ such that each one of them is bounded, i.e., $Z_{i} \in [a_{i}, b_{i}]$:</p><p>$$
 \begin{aligned}
-\mathbf{P}(\bar{Z}_{n} > \epsilon) &\leq e^{-nt \epsilon} \mathbf{E}\left( \exp\left( t \sum_{i=1}^{n} Z_{i} \right) \right)\\<p>&\leq e^{-nt\epsilon} \prod_{i=1}^{n} \mathbf{E}(\exp(tZ_{i})) \
+\mathbf{P}(\bar{Z}_{n} > \epsilon) &\leq e^{-nt \epsilon} \mathbf{E}\left( \exp\left( t \sum_{i=1}^{n} Z_{i} \right) \right)\\
+&\leq e^{-nt\epsilon} \prod_{i=1}^{n} \mathbf{E}(\exp(tZ_{i})) \\
 &\leq e^{-nt\epsilon} \prod_{i=1}^{n} \exp\left( nt\mu + \frac{t^2(b-a)^2}{8} \right)
 \end{aligned}
-$$</p></p><p>This is essentially Hoeffding&rsquo;s inequality. The more familiar version of this is when we have $Z_i$s are all identical, aka, they are iids.</p><p>$$
+$$</p><p>This is essentially Hoeffding&rsquo;s inequality. The more familiar version of this is when we have $Z_i$s are all identical, aka, they are iids.</p><p>$$
 \mathbf{P}(\bar{Y}_{n} > \epsilon) \leq \inf_{t\geq 0} \exp\left( -n\epsilon t + nt\mu+\frac{nt^2(b-a)^2}{8} \right)
 $$</p><p>The minima for this occurs when $t = \frac{4\epsilon}{(b-a)^2}$. Hence we have: (when taken with absolute value $\mu$ becomes 0)</p><p>$$
 \mathbf{P}(|\bar{Y}_{n}-\mu| > \epsilon) \leq 2 \exp\left( \frac{-2n\epsilon^2}{(b-a)^2} \right)
