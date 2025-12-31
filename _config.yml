@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Kausthubh's blog"
 title_separator          : "-"
 name                     : &name "Kausthubh Manda"
@@ -28,7 +28,7 @@ author:
   pronouns         : "he/him"
   bio              : "Machine Learning Theory/ Reinforcement Learning"
   location         : "Bangalore, India"
-  employer         : "International Institute of Information Technology Bangalore"
+  employer         : "IIIT Bangalore"
   uri              : # URL
   email            : "manda.kausthubh@iiitb.ac.in" 
 
