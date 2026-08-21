@@ -27,6 +27,7 @@
   @include breakpoint($large) {
     @include span(2 of 12);
     opacity: 1;
+    padding-right: 1.5em;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
 
@@ -37,7 +38,7 @@
 
   @include breakpoint($x-large) {
     max-width: $sidebar-link-max-width;
-    padding-right: 0;
+    padding-right: 1.5em;
   }
 
   h2, h3, h4, h5, h6 {
@@ -94,11 +95,13 @@
   }
 
   img {
-    max-width: 280px;
+    display: block;
     width: 100%;
+    max-width: 100%;
+    margin: 0 0 1em;
     aspect-ratio: 3 / 4;
     object-fit: cover;
-    object-position: center 20%;
+    object-position: 62% 22%;
     border-radius: $border-radius;
 
     @include breakpoint($large) {
