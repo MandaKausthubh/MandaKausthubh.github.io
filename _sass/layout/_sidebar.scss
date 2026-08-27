@@ -90,7 +90,7 @@
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
   }
 
@@ -99,7 +99,7 @@
     width: 100%;
     max-width: 100%;
     margin: 0 0 1em;
-    aspect-ratio: 3 / 4;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     object-position: 62% 22%;
     border-radius: $border-radius;
