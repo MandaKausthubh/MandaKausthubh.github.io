@@ -16,5 +16,3 @@ I'm currently working as a Research Intern at Microsoft Research India, under th
 I also work with [Dr. Naganand Yadati](https://www.iiitb.ac.in/faculty/naganand), studying how LLMs retain prior capabilities when they are sequentially fine-tuned on new tasks. We probe the stability-plasticity trade-off, measuring how much general instruction-following and reasoning degrades as task-specific SFT proceeds. The goal is to characterise when and why standard fine-tuning pipelines forget, and what minimal interventions slow that drift.
 
 I also play football (soccer, for my American friends) as a hobby. Apart from that, I enjoy exploring low-level programming principles. I'm the founder of MathClub@IIITB, where I organise math-themed events and have submitted a solution to the American Mathematical Monthly (more in the pipeline).
-
-For papers and preprints, see my [publications page](/publications/).
