@@ -36,7 +36,7 @@ redirect_from:
   }
 </style>
 
-I'm Kausthubh Manda, a pre-final year Integrated MTech student at IIIT Bangalore. I'm an aspiring researcher interested in the intersection of Mathematics and Machine Learning. My specific interests include ML theory, Reinforcement Learning, Optimisation, and LLMs. I'm currently a member of [Dr. Aswin Kannan's research group](https://www.iiitb.ac.in/faculty/aswin-kannan), working on Multi-Objective Optimization Theory as part of my Master's thesis.
+I'm Kausthubh Manda, a final year Integrated MTech student at IIIT Bangalore. I'm an aspiring researcher interested in the intersection of Mathematics and Machine Learning. My specific interests include ML theory, Reinforcement Learning, Optimisation, and LLMs. I'm currently a member of [Dr. Aswin Kannan's research group](https://www.iiitb.ac.in/faculty/aswin-kannan), working on Multi-Objective Optimization Theory as part of my Master's thesis.
 
 I'm currently working as a Research Intern at Microsoft Research India, under the supervision of [Dr. Akshay Nambi](https://www.microsoft.com/en-us/research/people/akshayn/), working on long-horizon memory for agents in the M365 stack.
 
