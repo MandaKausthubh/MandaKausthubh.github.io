@@ -13,6 +13,6 @@ I'm Kausthubh Manda, a pre-final year Integrated MTech student at IIIT Bangalore
 
 I'm currently working as a Research Intern at Microsoft Research India, under the supervision of [Dr. Akshay Nambi](https://www.microsoft.com/en-us/research/people/akshayn/), working on long-horizon memory for agents in the M365 stack.
 
-I also work with [Dr. Naganand Yadati](https://www.iiitb.ac.in/faculty/naganand), investigating how LLMs retain prior capabilities when sequentially fine-tuned on new tasks. An earlier research-driven course produced a [pre-print on arXiv](https://arxiv.org/pdf/2512.20220).
+I also work with [Dr. Naganand Yadati](https://www.iiitb.ac.in/faculty/naganand), studying how LLMs retain prior capabilities when they are sequentially fine-tuned on new tasks. We probe the stability-plasticity trade-off, measuring how much general instruction-following and reasoning degrades as task-specific SFT proceeds. The goal is to characterise when and why standard fine-tuning pipelines forget, and what minimal interventions slow that drift. An earlier research-driven course produced a [pre-print on arXiv](https://arxiv.org/pdf/2512.20220).
 
 I also play football (soccer, for my American friends) as a hobby. Apart from that, I enjoy exploring low-level programming principles. I'm the founder of MathClub@IIITB, where I organise math-themed events and have submitted a solution to the American Mathematical Monthly (more in the pipeline).
