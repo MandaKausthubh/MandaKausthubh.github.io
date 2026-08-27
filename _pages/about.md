@@ -11,7 +11,7 @@ redirect_from:
 
 <style>
   .author__content {
-    padding-left: 40px !important;
+    padding-left: 120px !important;
     padding-right: 25px !important;
   }
   @media (min-width: 1024px) {
